@@ -7,18 +7,18 @@
     llvmPackages,
 }:
 let
-    librusty_v8 = callPackage ../librusty_v8/package.nix { };
+    librusty_v8 = callPackage ../../deps/librusty_v8/package.nix { };
 in
 
 rustPlatform.buildRustPackage {
     pname = "fresh";
-    version = "0.1.44-unstable-2025-12-15";
+    version = "0.1.44-unstable-2025-12-16";
 
     src = fetchFromGitHub {
         owner = "sinelaw";
         repo = "fresh";
-        rev = "3e7e284358062cc4b94a9205e419d42795f4c7bb";
-        hash = "sha256-/f8mGGS8Hckfw9s9H/CobFDUa0VooQdHtDskUED9cEc=";
+        rev = "4d703d7229a91842908de388050134eb39bb436a";
+        hash = "sha256-s652WHQU6EDDGjmq/pbiu2LTEhj/ONJ0DSah3pjI9Is=";
     };
 
     cargoHash = "sha256-IglklvhsR0MgZY3sqKGSbDtXlS0S31yWnKXtjfrhw9o=";
