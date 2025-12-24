@@ -13,6 +13,11 @@
             url = "github:numtide/treefmt-nix";
             inputs.nixpkgs.follows = "nixpkgs";
         };
+        nima = {
+            url = "path:/mnt/HOUSE/dev/testing-grounds/nix-manipulator";
+            inputs.nixpkgs.follows = "nixpkgs";
+            inputs.systems.follows = "systems";
+        };
     };
 
     outputs =
