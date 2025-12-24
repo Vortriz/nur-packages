@@ -14,7 +14,7 @@
             inputs.nixpkgs.follows = "nixpkgs";
         };
         nima = {
-            url = "path:/mnt/HOUSE/dev/testing-grounds/nix-manipulator";
+            url = "github:Vortriz/nix-manipulator";
             inputs.nixpkgs.follows = "nixpkgs";
             inputs.systems.follows = "systems";
         };
