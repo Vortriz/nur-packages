@@ -5,11 +5,11 @@
 }:
 mkZoteroAddon rec {
     pname = "SciPDF For Zotero";
-    version = "8.0.1";
+    version = "8.0.2";
 
     src = fetchurl {
         url = "https://github.com/syt2/zotero-scipdf/releases/download/V${version}/sci-pdf.xpi";
-        hash = "sha256-TvFjScju0yJ6sxXSS2jR3+Nquki5FTTHIAqldl4sYs4=";
+        hash = "sha256-bWNehOdmXZNLRDLdR65IBNkxxzSaWnomgI6mjLQU69E=";
     };
 
     addonId = "scipdf@ytshen.com";
