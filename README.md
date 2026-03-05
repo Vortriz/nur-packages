@@ -13,6 +13,7 @@ Available through `nur.repos.Vortriz.<package>` as well as `default` overlay.
 | -------------------------------------------------------------------------------------------------------------------------------------- | ---------------- |
 | [`batteryd`](https://github.com/Naxdy/batteryd)                                                                                        | Auto updated     |
 | [`dl`](https://github.com/Vortriz/dl)                                                                                                  | Auto updated     |
+| [`doi2bib3`](https://github.com/archisman-panigrahi/doi2bib3)                                                                          | Auto updated     |
 | [`dunefetch`](https://github.com/datavorous/dunefetch)                                                                                 | Auto updated     |
 | [`fprintd`](https://gitlab.freedesktop.org/libfprint/fprintd)                                                                          | Pinned to 1.94.4 |
 | [`fresh`](https://github.com/sinelaw/fresh)                                                                                            | Auto updated     |
