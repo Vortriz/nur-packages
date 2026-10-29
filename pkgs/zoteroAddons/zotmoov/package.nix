@@ -5,7 +5,7 @@
 }:
 mkZoteroAddon rec {
     pname = "ZotMoov";
-    version = "1.2.32";
+    version = "1.2.34";
 
     src = fetchurl {
         url = "https://github.com/wileyyugioh/zotmoov/releases/download/${version}/zotmoov-${version}-fx.xpi";
